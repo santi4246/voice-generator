@@ -14,21 +14,9 @@ SSML = """<speak>
   ¡Hacé clic <break time="300ms"/> y llevátelos con 10% de descuento y envío gratis. <break time="250ms"/>
 </speak>"""
 
-VOICE_INFO = """Name: es-US-Chirp-HD-O
-Languages: es-US
-SSML gender: FEMALE
-Natural sample rate (Hz): 24000"""
+SSML = """<speak>Hola, este es un ejemplo simple de audio text to speech.</speak>"""
 
-VOICE = 'es-US-Chirp-HD-O'
-SSML_FILE = None
-
-VOICE_INFO = {
-    'es-US-Chirp-HD-O':  {'model_type': 'Chirp3',  'price_per_million': 30.00},
-    'es-AR-Neural2-A':   {'model_type': 'Neural2', 'price_per_million': 16.00},
-    'es-AR-Wavenet-A':   {'model_type': 'WaveNet', 'price_per_million': 4.00},
-    'es-AR-Standard-A':  {'model_type': 'Standard','price_per_million': 4.00},
-    # ... otras voces
-}
+VOICE = "es-US-Wavenet-A"
 
 FREE_TIER_CHARS = {
     'Chirp3':  1_000_000,
@@ -37,4 +25,11 @@ FREE_TIER_CHARS = {
     'Standard':4_000_000,
     'Studio':  1_000_000,
 }
-USE_TEXT_ONLY = False
+
+"""
+# Tomado del archivo voces_listadas que resulta de ejecutar el script listar.py
+Name: es-US-Neural2-A
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+"""

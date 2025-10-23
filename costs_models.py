@@ -14,17 +14,12 @@ import sys
 import re
 import html
 from pathlib import Path
+from voces import VOICE_INFO
 
 # VOICE_INFO: actualizar precios según tarifas reales.
 # key: voice name (ej. 'es-AR-Wavenet-A')
 # model_type: 'WaveNet' | 'Neural2' | 'Standard' (u otros categóricos)
 # price_per_million: precio en USD por 1,000,000 caracteres para ese tipo de voz
-VOICE_INFO = {
-    'es-AR-Wavenet-A':    {'model_type': 'WaveNet',  'price_per_million': 16.00},
-    'es-AR-Neural2-A':    {'model_type': 'Neural2', 'price_per_million': 20.00},
-    'es-AR-Standard-A':   {'model_type': 'Standard','price_per_million': 4.00},
-    # Añade aquí más voces/entradas según tu proyecto...
-}
 
 # Free tier por tipo de modelo (caracteres gratuitos por mes, ejemplo)
 FREE_TIER_CHARS = {
@@ -45,7 +40,7 @@ def strip_ssml_tags(ssml: str) -> str:
     text = html.unescape(text)                 # convierte &amp; etc a caracteres reales
     return text
 
-def estimate_cost(char_count: int, model_type: str, price_per_million: float, free_tier: int) -> dict:
+def estimate_cost(char_count: int, type: str, price_per_million: float, free_tier: int) -> dict:
     """Calcula coste estimado y retorna un dict con desglose.
 
     Además calcula el precio unitario por 10,000 caracteres y una estimación
@@ -64,7 +59,7 @@ def estimate_cost(char_count: int, model_type: str, price_per_million: float, fr
     estimated_cost_usd_for_10k = (billable_for_10k / 10_000.0) * price_per_10k
 
     return {
-        'model_type': model_type,
+        'model_type': type,
         'price_per_million': price_per_million,
         'price_per_10k': price_per_10k,
         'free_tier_chars': free_tier,
@@ -158,7 +153,7 @@ def main():
     text_chars = len(text_only)
 
     voice_meta = VOICE_INFO[voice]
-    model_type = voice_meta.get('model_type', 'Unknown')
+    model_type = voice_meta.get('type', 'Unknown')
     price_per_million = float(voice_meta.get('price_per_million', 0.0))
     free_tier = FREE_TIER_CHARS.get(model_type, 0)
 
