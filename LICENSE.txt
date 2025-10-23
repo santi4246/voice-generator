@@ -1,0 +1,11 @@
+Licencia de Uso Personal
+
+Copyright (c) 2025 Santiago Luis Romero Pereyra
+
+Se concede permiso para usar, copiar, modificar y distribuir este software únicamente para fines personales y no comerciales.
+
+Queda estrictamente prohibida la venta, sublicencia, distribución comercial o cualquier otro uso con fines de lucro de este software o de sus derivados.
+
+EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO PERO NO LIMITADA A GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN.
+
+En ningún caso los autores serán responsables por cualquier reclamo, daño o responsabilidad derivada del uso de este software.

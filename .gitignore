@@ -1,0 +1,4 @@
+# Ignorar archivo de clave de servicio de Google Cloud Text-to-Speech
+tts-sa-key.json
+
+Instrucciones.txt

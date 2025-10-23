@@ -1,0 +1,290 @@
+Voces disponibles para 'es-AR':
+
+--- Voz #1 ---
+Name: es-US-Chirp-HD-D
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #2 ---
+Name: es-US-Chirp-HD-F
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #3 ---
+Name: es-US-Chirp-HD-O
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #4 ---
+Name: es-US-Chirp3-HD-Achernar
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #5 ---
+Name: es-US-Chirp3-HD-Achird
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #6 ---
+Name: es-US-Chirp3-HD-Algenib
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #7 ---
+Name: es-US-Chirp3-HD-Algieba
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #8 ---
+Name: es-US-Chirp3-HD-Alnilam
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #9 ---
+Name: es-US-Chirp3-HD-Aoede
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #10 ---
+Name: es-US-Chirp3-HD-Autonoe
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #11 ---
+Name: es-US-Chirp3-HD-Callirrhoe
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #12 ---
+Name: es-US-Chirp3-HD-Charon
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #13 ---
+Name: es-US-Chirp3-HD-Despina
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #14 ---
+Name: es-US-Chirp3-HD-Enceladus
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #15 ---
+Name: es-US-Chirp3-HD-Erinome
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #16 ---
+Name: es-US-Chirp3-HD-Fenrir
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #17 ---
+Name: es-US-Chirp3-HD-Gacrux
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #18 ---
+Name: es-US-Chirp3-HD-Iapetus
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #19 ---
+Name: es-US-Chirp3-HD-Kore
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #20 ---
+Name: es-US-Chirp3-HD-Laomedeia
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #21 ---
+Name: es-US-Chirp3-HD-Leda
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #22 ---
+Name: es-US-Chirp3-HD-Orus
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #23 ---
+Name: es-US-Chirp3-HD-Puck
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #24 ---
+Name: es-US-Chirp3-HD-Pulcherrima
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #25 ---
+Name: es-US-Chirp3-HD-Rasalgethi
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #26 ---
+Name: es-US-Chirp3-HD-Sadachbia
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #27 ---
+Name: es-US-Chirp3-HD-Sadaltager
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #28 ---
+Name: es-US-Chirp3-HD-Schedar
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #29 ---
+Name: es-US-Chirp3-HD-Sulafat
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #30 ---
+Name: es-US-Chirp3-HD-Umbriel
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #31 ---
+Name: es-US-Chirp3-HD-Vindemiatrix
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #32 ---
+Name: es-US-Chirp3-HD-Zephyr
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #33 ---
+Name: es-US-Chirp3-HD-Zubenelgenubi
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #34 ---
+Name: es-US-Neural2-A
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #35 ---
+Name: es-US-Neural2-B
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #36 ---
+Name: es-US-Neural2-C
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #37 ---
+Name: es-US-News-D
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #38 ---
+Name: es-US-News-E
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #39 ---
+Name: es-US-News-F
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #40 ---
+Name: es-US-News-G
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #41 ---
+Name: es-US-Polyglot-1
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #42 ---
+Name: es-US-Standard-A
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #43 ---
+Name: es-US-Standard-B
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #44 ---
+Name: es-US-Standard-C
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #45 ---
+Name: es-US-Studio-B
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #46 ---
+Name: es-US-Wavenet-A
+Languages: es-US
+SSML gender: FEMALE
+Natural sample rate (Hz): 24000
+
+--- Voz #47 ---
+Name: es-US-Wavenet-B
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
+--- Voz #48 ---
+Name: es-US-Wavenet-C
+Languages: es-US
+SSML gender: MALE
+Natural sample rate (Hz): 24000
+
