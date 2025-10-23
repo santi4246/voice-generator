@@ -14,17 +14,10 @@ Este repositorio contiene utilidades y scripts para sintetizar audio con Google 
 ---
 
 ## Instalación (recomendada)
-1. Clonar repo y crear virtualenv:
+1. Clonar repositorio:
 ```bash
 git clone <tu-repo>
 cd <tu-repo>
-python -m venv .venv
-# Windows PowerShell
-.\.venv\Scripts\Activate.ps1
-# Windows cmd
-.\.venv\Scripts\activate.bat
-# mac / linux
-source .venv/bin/activate
 ```
 2. Instalar dependencias:
 ```bash
@@ -33,17 +26,14 @@ python -m pip install google-cloud-texttospeech google-api-python-client google-
 ```
 
 ## Archivos y scripts importantes
-- voces.py
-Diccionario VOICE_INFO con metadatos de voces y la función resolve_voice(voice_key) que normaliza la entrada y devuelve (voice_name, language_code, voice_meta)
-- voice_input.py
-Variables de entrada que usa el sintetizador:
-SSML (string) — SSML o texto a sintetizar.
-VOICE (string) — clave de voz (debe corresponder a una entrada en VOICE_INFO)
-- checkApi.py
-Verifica:
-Que el JSON de la service account exista y sea legible.
-Que la API Text-to-Speech esté habilitada en el proyecto.
-Usa gcloud si está disponible; si no, usa la Service Usage REST API con el JSON de la cuenta de servicio.
+- voces.py: Diccionario VOICE_INFO con metadatos de voces y la función resolve_voice(voice_key) que normaliza la entrada y devuelve (voice_name, language_code, voice_meta)
+- voice_input.py variables de entrada que usa el sintetizador:
+    * SSML (string) — SSML o texto a sintetizar.
+    * VOICE (string) — clave de voz (debe corresponder a una entrada en VOICE_INFO)
+- checkApi.py verifica: 
+    * Que el JSON de la service account exista y sea legible.
+    * Que la API Text-to-Speech esté habilitada en el proyecto.
+    * Usa gcloud si está disponible; si no, usa la Service Usage REST API con el JSON de la cuenta de servicio.
 Uso: 
 ```bash
 python checkApi.py
@@ -70,12 +60,12 @@ tts-sa-key.json
 1. Exportar el path del JSON de la service account:
 - Windows PowerShell:
 ```bash
-$env:GOOGLE_APPLICATION_CREDENTIALS = 'D:\Documentos\Proyectos\SSML\tts-sa-key.json'
+$env:GOOGLE_APPLICATION_CREDENTIALS = 'D:\Documentos\Proyectos-Python\SSML\tts-sa-key.json'
 python checkApi.py
 ```
 - Windows cmd:
 ```bash
-set GOOGLE_APPLICATION_CREDENTIALS=D:\Documentos\Proyectos\SSML\tts-sa-key.json
+set GOOGLE_APPLICATION_CREDENTIALS=D:\Documentos\Proyectos-Python\SSML\tts-sa-key.json
 python checkApi.py
 ```
 - mac / linux:
@@ -106,6 +96,12 @@ gcloud services enable texttospeech.googleapis.com --project=TU_PROJECT_ID
 gcloud projects add-iam-policy-binding TU_PROJECT_ID \
   --member="serviceAccount:MI_SA_EMAIL" \
   --role="roles/serviceusage.serviceUsageConsumer"
+```
+* Permitir habilitar la api
+```bash
+gcloud projects add-iam-policy-binding TU_PROJECT_ID \
+  --member="serviceAccount:MI_SA_EMAIL" \
+  --role="roles/serviceusage.serviceUsageAdmin"
 ```
 
 ### Cómo listar voces disponibles
